@@ -1,0 +1,9 @@
+ ada 3 cara 
+
+- nmap 198.168.192.0/24
+- nmap 198.168.192.0-255
+- nmap 198.168.192.*
+
+ untik melihat ip localhost yang aktif
+
+- sudo netdiscover -r 198.168.192.0/24

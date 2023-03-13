@@ -1,0 +1,16 @@
+ Syn scan tidak meningalkan jejak karena memutus koneksi 
+ dan tidak melakukan connetion penuh 
+
+- sudo nmap -sS [ip_address]
+
+ TCP connect scan akan meningalkan jejak karena melakukan
+koneksi penuh
+
+- nmap -sT [ip_address]
+
+ UDP scan memakan waktu lama tidak recomended
+
+- sudo nmap -sU [ip_address]
+  
+  untuk menemukan servise version
+- nmap -sV [ip_address]

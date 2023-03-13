@@ -1,0 +1,4 @@
+
+-buat list ip_address dengan nano namafile
+-di dalam file list berisi urutan  ip_address
+-nmap -iL namafile

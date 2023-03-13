@@ -1,0 +1,4 @@
+   jika ip adress dari windows gunakan versi -Pn agar
+   nmap bisa scan . . contoh 
+
+-  nmap -Pn [ip_address]
